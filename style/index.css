@@ -61,6 +61,8 @@ table {
     margin: 0 500px;
     border: 1px solid black;
     height: 1300px;
+    background:#2b2e4a;
+    color: #e84545;
 }
 
 
@@ -69,7 +71,12 @@ h1 {
     font-size: 32px;
 }
 
+h2 {
 
+font-size: 24px;
+margin-left: 40px;
+margin-bottom: 20px;
+}
 
 
 .navbar {
@@ -87,7 +94,14 @@ a {
     padding: 5px;
     width: 350px;
     height: 20px;
-    color: black;
+    color: #e84545;
+    background-color: #53354a;
+
+}
+
+a:hover {
+    background-color: black;
+    color: white;
 
 
 }
