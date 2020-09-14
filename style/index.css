@@ -60,6 +60,7 @@ table {
 .mainContent {
     margin: 0 500px;
     border: 1px solid black;
+    height: 1300px;
 }
 
 
@@ -77,13 +78,17 @@ h1 {
     margin-top: 20px;
     margin-right: 10px;
     flex-wrap: nowrap;
+    text-align: center;
+    
 }
 
 a {
     border: 2px solid black;
     padding: 5px;
-    width: 100px;
+    width: 350px;
     height: 20px;
+    color: black;
+
 
 }
 
@@ -93,5 +98,32 @@ a {
     width: 400px;
     }
 
+
+.bottomImagegroup {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+
+}
+
+
+#bottomButton {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.topImage {
+    margin: 20px 80px;
+    
+
+}
+
+.bottomImagegroup img {
+    margin-bottom: 20px;
+    border: 3px solid black;
+
+}
 
 
