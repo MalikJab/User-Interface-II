@@ -58,9 +58,9 @@ table {
 
 
 .mainContent {
-    margin: 0 500px;
+    margin: 0 25%;
     border: 1px solid black;
-    height: 1100px;
+    height: 100%;
     background:#2b2e4a;
     color: #e84545;
 }
@@ -68,25 +68,34 @@ table {
 
 
 h1 {
-    font-size: 32px;
+    font-size: 1.5rem;
+    margin-right:25%;
+    margin-left: 1%;
 }
 
-h2 {
-
-font-size: 24px;
-margin-left: 40px;
-margin-bottom: 20px;
-}
 
 
 .navbar {
     display: flex;
+    flex-direction: row;
     justify-content: flex-end;
+    margin: 0 3%;
     margin-top: 20px;
-    margin-right: 10px;
     flex-wrap: nowrap;
     text-align: center;
     
+}
+
+.navbar h1{
+    width:90%;
+
+
+}
+
+.navbar a {
+
+    width: 90%;
+
 }
 
 a {
@@ -106,17 +115,13 @@ a:hover {
 
 }
 
-.nameLogo {
-    margin-right:450px;
-    margin-left: 20px;
-    width: 400px;
-    }
 
 
 .bottomImagegroup {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
+    max-width: 100%;
 
 }
 
@@ -128,8 +133,9 @@ a:hover {
 
 }
 
-.topImage {
-    margin: 20px 80px;
+.topImage img{
+    width: 85%;
+    margin: 2% 8%;
     
 
 }
@@ -139,5 +145,75 @@ a:hover {
     border: 3px solid black;
 
 }
+
+@media (max-width: 800px) {
+
+.navbar {
+    flex-direction: column;
+}
+
+.navbar a{
+    width:40%;
+    margin-left:26%;                          %;
+
+}
+
+.navbar h1 {
+    font-size: 1.3rem;
+    width:40%;
+    margin-left:27%;
+}
+
+.bottomImagegroup img{
+    max-width: 40%;
+    max-height: 40%;
+
+}
+
+#bottomButton {
+    width:40%;
+    margin-left:26%;
+}
+
+
+}
+
+
+@media (max-width:500px){
+
+.navbar h1 {
+    width: 50%;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
